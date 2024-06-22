@@ -1,33 +1,21 @@
+// src/App.js
 import React from 'react';
-import Navbar from './components/Navbar';
-import HeroSlider from './components/HeroSlider';
-import Services from './components/Services';
-import About from './components/About';
-import SpecialDish from './components/SpecialDish';
-import Menu from './components/Menu';
-import Testimonials from './components/Testimonials';
-import Reservation from './components/Reservation';
-import Features from './components/Features';
-import Event from './components/Event';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
 import Footer from './components/Footer';
-import './App.css';
+import HomePage from './pages/HomePage'; // Đảm bảo rằng file này tồn tại trong thư mục pages
 
-function App() {
-  return (
-    <div className="App">
-      <Navbar />
-      <HeroSlider />
-      <Services />
-      <About />
-      <SpecialDish />
-      <Menu />
-      <Testimonials />
-      <Reservation />
-      <Features />
-      <Event />
-      <Footer />
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <Router>
+            <Header />
+            <Routes>
+                <Route path="/" element={<HomePage />} />
+                {/* Các Route khác có thể được thêm vào đây */}
+            </Routes>
+            <Footer />
+        </Router>
+    );
+};
 
 export default App;
