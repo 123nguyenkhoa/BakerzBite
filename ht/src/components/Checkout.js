@@ -1,6 +1,5 @@
 import React, { useContext } from 'react';
 import { CartContext } from '../contexts/CartContext';
-import { calculateTotal } from '../scripts';
 import logo from '../logo.png';
 
 const Checkout = () => {
