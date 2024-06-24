@@ -1,15 +1,19 @@
-import React, { useContext } from 'react';
+import React, { useContext, useEffect } from 'react';
 import { CartContext } from '../contexts/CartContext';
 import logo from '../logo.png';
 
 const Checkout = () => {
   const { cartItems, clearCart } = useContext(CartContext);
-  const totalAmount = cartItems.reduce((total, item) => total + item.price, 0);
+  const totalAmount = cartItems.reduce((total, item) => total + item.price * (item.quantity || 1), 0);
 
   const handleCheckout = () => {
     alert('Thank you for your purchase!');
     clearCart();
   };
+
+  useEffect(() => {
+    console.log(cartItems);
+  }, [cartItems]); // Thêm cartItems vào dependency array để theo dõi sự thay đổi của nó
 
   return (
     <div className="checkout-page">
@@ -37,7 +41,7 @@ const Checkout = () => {
                 <div className="cart-item-details">
                   <h3>{item.name}</h3>
                   <p>{item.description}</p>
-                  <p>${item.price}</p>
+                  <p>${item.price} x {item.quantity || 1}</p> {/* Hiển thị số lượng */}
                 </div>
               </div>
             ))
