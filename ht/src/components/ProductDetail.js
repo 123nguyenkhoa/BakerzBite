@@ -1,9 +1,9 @@
 import React, { useContext } from "react";
 import { useParams } from "react-router-dom";
 import { CartContext } from "../contexts/CartContext";
-import product1 from "../product1.jpg";
-import product2 from "../product2.jpg";
-import product3 from "../product3.jpg";
+import product1 from "../assets/image/product1.jpg";
+import product2 from "../assets/image/product2.jpg";
+import product3 from "../assets/image/product3.jpg";
 
 const products = [
     {
