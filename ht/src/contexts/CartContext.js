@@ -1,29 +1,52 @@
-import React, { createContext, useState } from 'react';
+// import React, { createContext, useState } from 'react';
+
+// export const CartContext = createContext();
+
+// export const CartProvider = ({ children }) => {
+//   const [cartItems, setCartItems] = useState([]);
+
+//   const addToCart = (product) => {
+//     setCartItems((prevItems) => [...prevItems, product]);
+//   };
+
+//   const clearCart = () => {
+//     setCartItems([]);
+//   };
+
+//   return (
+//     <CartContext.Provider value={{ cartItems, addToCart, clearCart }}>
+//       {children}
+//     </CartContext.Provider>
+//   );
+// };
+
+import React, { createContext, useState, useEffect } from "react";
 
 export const CartContext = createContext();
 
 export const CartProvider = ({ children }) => {
-  const [cartItems, setCartItems] = useState([]);
-
-  const addToCart = (product, quantity = 1) => {
-    setCartItems((prevItems) => {
-      const existingItem = prevItems.find(item => item.id === product.id);
-      if (existingItem) {
-        return prevItems.map(item =>
-          item.id === product.id ? { ...item, quantity: item.quantity + quantity } : item
-        );
-      }
-      return [...prevItems, { ...product, quantity }];
+    const [cartItems, setCartItems] = useState(() => {
+        // Lấy giá trị giỏ hàng từ localStorage khi khởi tạo
+        const localData = localStorage.getItem("cartItems");
+        return localData ? JSON.parse(localData) : [];
     });
-  };
 
-  const clearCart = () => {
-    setCartItems([]);
-  };
+    useEffect(() => {
+        // Lưu trạng thái giỏ hàng vào localStorage mỗi khi cartItems thay đổi
+        localStorage.setItem("cartItems", JSON.stringify(cartItems));
+    }, [cartItems]);
 
-  return (
-    <CartContext.Provider value={{ cartItems, addToCart, clearCart }}>
-      {children}
-    </CartContext.Provider>
-  );
+    const addToCart = (product) => {
+        setCartItems((prevItems) => [...prevItems, product]);
+    };
+
+    const clearCart = () => {
+        setCartItems([]);
+    };
+
+    return (
+        <CartContext.Provider value={{ cartItems, addToCart, clearCart }}>
+            {children}
+        </CartContext.Provider>
+    );
 };

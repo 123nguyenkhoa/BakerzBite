@@ -1,12 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { CartProvider } from './contexts/CartContext';
-import App from './App';
-import './index.css';
+import React from "react";
+import { createRoot } from "react-dom/client";
+import App from "./App";
+import { CartProvider } from "./contexts/CartContext";
+import "./index.css";
+import "./App.css";
 
-ReactDOM.render(
-  <CartProvider>
-    <App />
-  </CartProvider>,
-  document.getElementById('root')
+createRoot(document.getElementById("root")).render(
+    <CartProvider>
+        <App />
+    </CartProvider>
 );

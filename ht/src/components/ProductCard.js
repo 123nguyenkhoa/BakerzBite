@@ -9,7 +9,6 @@ const ProductCard = ({ image, name, description, price, id }) => {
   const handleAddToCart = () => {
     const product = { id, image, name, description, price };
     addToCart(product);
-    console.log(product);
   };
 
   return (
