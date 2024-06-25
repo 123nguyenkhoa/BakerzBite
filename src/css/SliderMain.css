@@ -1,0 +1,5 @@
+.Carousel  .Carousel.Item img{
+    width:100vw;  /* Đảm bảo carousel chiếm toàn bộ chiều rộng */
+    height: 1000px; /* Tùy chọn: Đặt chiều cao bằng chiều cao viewport */
+    
+  }

@@ -1,0 +1,157 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App-header {
+  text-align: center;
+  padding: 0;
+  background-color: #fff7e4;
+  color: #cc3366;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfc5e0;
+  padding: 10px 20px;
+  font-size: 15px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-left a {
+  text-decoration: none;
+  color: rgb(114, 43, 43);
+  padding: 14px 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar-left a:hover {
+  background-color: #746377;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.search-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  margin-right: 20px;
+}
+
+.search-box input {
+  border: none;
+  outline: none;
+  padding: 5px;
+}
+
+.search-box button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.navbar-right a {
+  text-decoration: none;
+  color: rgb(114, 43, 43);
+  padding: 14px 20px;
+  margin: 0 10px;
+  transition: background-color 0.3s;
+}
+
+.navbar-right a:hover {
+  background-color: #dcc1e0;
+}
+
+.hero {
+  background-color: #f8e8f2;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.hero h1 {
+  color: #cc3366;
+}
+
+.hero button {
+  background-color: #cc3366;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.hero button:hover {
+  background-color: #a02a52;
+}
+
+.categories,
+.selling-quickly {
+  padding: 20px;
+  text-align: center;
+}
+
+.category-list,
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.category-item,
+.product-item {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  width: 200px;
+  text-align: center;
+  transition: box-shadow 0.3s;
+}
+
+.category-item:hover,
+.product-item:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 20px;
+  text-align: center;
+}
+
+footer h2 {
+  margin: 0;
+  color: #cc3366;
+}
+
+footer p {
+  margin: 10px 0;
+}
+
