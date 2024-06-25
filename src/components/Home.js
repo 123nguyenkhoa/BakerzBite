@@ -5,6 +5,7 @@ import { FaSearch, FaUser, FaShoppingCart } from 'react-icons/fa';
 import SliderMain from './SliderMain';
 import Button from 'react-bootstrap/Button';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import { Link } from 'react-router-dom';
 
 function Homepage() {
   return (
@@ -14,25 +15,25 @@ function Homepage() {
       </header>
       <nav className="navbar">
         <div className="navbar-left">
-          <a href="/">
+          <Link to="/">
             <img src={logo} alt="BarkersBite" className="logo" />
-          </a>
-          <a href="/">Birthday Cake</a>
-          <a href="Product">Cheese Cake</a>
-          <a href="#">CupCake</a>
-          <a href="#">Tiramisu Cake</a>
-          <a href="#">Donut</a> 
-          <a href="#">Muffin</a>
-          <a href="#">Tea And Drink</a>
-          <a href="#">Flower</a>
+          </Link>
+          <Link to="/products">Birthday Cake</Link>
+          <Link to="/product">Cheese Cake</Link>
+          <Link to="/products">CupCake</Link>
+          <Link to="/products">Tiramisu Cake</Link>
+          <Link to="/products">Donut</Link> 
+          <Link to="/products">Muffin</Link>
+          <Link to="/products">Tea And Drink</Link>
+          <Link to="/products">Flower</Link>
         </div>
         <div className="navbar-right">
           <div className="search-box">
             <input type="text" placeholder="Search..." />
             <button><FaSearch /></button>
           </div>
-          <a href="#"><FaUser /></a>
-          <a href="#"><FaShoppingCart /></a>
+          <Link to="/user"><FaUser /></Link>
+          <Link to="/cart"><FaShoppingCart /></Link>
         </div>
       </nav>
       <section className="hero">

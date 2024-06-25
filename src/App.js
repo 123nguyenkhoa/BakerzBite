@@ -1,18 +1,22 @@
 import React from 'react';
-
-import { Routes, Route, Link, useNavigate } from 'react-router-dom';
-import Product from './components/Product';
+import { BrowserRouter as Router, Routes, Route, Link, useNavigate } from 'react-router-dom';
 import Homepage from './components/Home';
+import Product from './components/Product';
+import ProductList from './components/ProductList';
+import Cart from './components/Cart';
+import { CartProvider } from './contexts/CartContext'; // Đảm bảo đường dẫn đúng
 
 function App() {
   return (
     <div className="App">
-      <section>
+      <CartProvider>
         <Routes>
-          <Route path='/' element={<Homepage/>}/>
-          <Route path='Product' element={<Product/>}/>
+          <Route path='/' element={<Homepage />} />
+          <Route path='/product' element={<Product />} />
+          <Route path='/products' element={<ProductList />} />
+          <Route path='/cart' element={<Cart />} />
         </Routes>
-      </section>
+      </CartProvider>
     </div>
   );
 }
