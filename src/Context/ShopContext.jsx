@@ -14,15 +14,24 @@ const getDefaultCart = () => {
   return cart;
 };
 
+const parseJSON = (str) => {
+  try {
+    return JSON.parse(str);
+  } catch (e) {
+    console.error("Error parsing JSON:", e);
+    return null;
+  }
+};
+
 const getDefaultWishlist = () => {
   const savedWishlist = localStorage.getItem("wishlist");
-  return savedWishlist ? JSON.parse(savedWishlist) : [];
+  return savedWishlist ? parseJSON(savedWishlist) : [];
 };
 
 const getUserData = () => {
   const userData = localStorage.getItem("user");
   return userData
-    ? JSON.parse(userData)
+    ? parseJSON(userData)
     : {
         name: "John Doe",
         rewardPoints: 0,
