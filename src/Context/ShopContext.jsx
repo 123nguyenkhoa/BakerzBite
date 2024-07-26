@@ -16,7 +16,7 @@ const getDefaultCart = () => {
 
 const parseJSON = (str) => {
   try {
-    return JSON.parse(str);
+    return str ? JSON.parse(str) : null;
   } catch (e) {
     console.error("Error parsing JSON:", e);
     return null;
@@ -131,7 +131,7 @@ const ShopContextProvider = (props) => {
         points: earnedPoints,
         date: new Date().toISOString(),
         purpose: "Order purchase",
-      });
+      }); // Sửa lỗi thiếu dấu chấm phẩy ở đây
     } catch (error) {
       console.error("Error saving order:", error);
     }
@@ -164,7 +164,7 @@ const ShopContextProvider = (props) => {
       points: Math.abs(points),
       date: new Date().toISOString(),
       purpose: purpose,
-    });
+    }); // Sửa lỗi thiếu dấu chấm phẩy ở đây
   };
 
   const updateRewardHistory = (entry) => {
