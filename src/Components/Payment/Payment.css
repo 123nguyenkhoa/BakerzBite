@@ -1,0 +1,417 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.payment-container {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.payment-content {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+  gap: 20px;
+}
+.left-section,
+.right-section {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.left-section {
+  flex: 4;
+  width: 60%;
+}
+.right-section {
+  margin-top: 70px;
+  flex: 2;
+  width: 40%;
+  background-color: #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.payment-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  flex: 1;
+}
+.payment-form h3 {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+.payment-form label {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.payment-form label input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 10px;
+  width: auto;
+}
+.payment-form input,
+.payment-form select,
+.right-section .row input,
+.right-section .row button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.payment-form .row,
+.delivery .row {
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+}
+.delivery,
+.payment {
+  margin-top: 15px;
+}
+.payment {
+  border: 1px solid #ccc;
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 8px;
+}
+.payment p {
+  margin-top: 4px;
+}
+.payment .credit {
+  margin-top: 5px;
+}
+.payment-form .row,
+.delivery .row,
+.right-section .row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  gap: 5px;
+}
+.payment-form .row label,
+.delivery .row label,
+.right-section .row label {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  margin-right: 10px;
+}
+.payment-form .row input,
+.delivery .row input,
+.right-section .row input {
+  flex: 2;
+  width: calc(50% - 5px);
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.gpay-button,
+.apply-button,
+.right-section .row button {
+  background-color: #0056b3;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+  border-radius: 4px;
+}
+.billing-address h3 {
+  margin-top: 20px;
+}
+.separator {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #999;
+}
+
+.pay-now-button,
+.reset-button {
+  background-color: #0056b3; 
+  color: #fff; 
+  padding: 10px 15px; 
+  border: none; 
+  width: 100%; 
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px; 
+  border-radius: 4px; 
+}
+
+.pay-by-qr-button {
+  padding: 8px 16px; 
+  border: none; 
+  border-radius: 5px; 
+  background-color: #0056b3;
+  color: white; 
+  cursor: pointer; 
+  margin-top: 10px;
+}
+
+.pay-by-qr-button:hover,
+.pay-now-button:hover,
+.reset-button:hover {
+  opacity: 0.8; 
+}
+
+.qr-iframe {
+  border: none;
+  width: 300px;
+  height: 300px;
+}
+
+.payment-success {
+  font-size: 24px;
+  color: green;
+  margin-top: 20px;
+}
+.right-section .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.right-section .row input,
+.right-section .row button {
+  flex: 1;
+  margin: 0 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.right-section .row button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+.right-section .order-details {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+}
+.right-section .order-details > p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+  width: 100%;
+  max-width: 400px;
+}
+.right-section .order-details .subtotal,
+.right-section .order-detail .shipping {
+  font-size: 18px;
+}
+.right-section .order-details .total {
+  font-weight: 600;
+  font-size: 25px;
+}
+.footers-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #777;
+}
+.footers-links a {
+  color: #0056b3;
+  text-decoration: none;
+  font-size: 18px;
+}
+.footers-links a:hover {
+  text-decoration: underline;
+}
+.order-summary {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-image {
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+.product-info h3 {
+  font-size: 19px;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+}
+.discount-code {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+.order-details {
+  font-size: 14px;
+}
+.order-details p {
+  margin-bottom: 10px;
+}
+.total span {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.popup-container {
+  margin-top: 35px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+  overflow: hidden;
+}
+.popup-content-1 {
+  position: relative;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  width: 900px;;
+  height: 450px;
+  overflow-y: auto;
+}
+.popup-content-1 h2 {
+  margin-bottom: 10px;
+}
+.close-icon {
+  cursor: pointer;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 24px;
+  height: 24px;
+  fill: #333;
+}
+.close-icon:hover {
+  fill: #ff0000;
+}
+.success-message {
+  background-color: #28a745;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  
+  transform: translate(-50%, -50%);
+}
+.success-message p {
+  font-size: 18px;
+  font-weight: bold;
+}
+.loader {
+  width: fit-content;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.truckWrapper {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  overflow-x: hidden;
+}
+
+.truckBody {
+  width: 130px;
+  height: fit-content;
+  margin-bottom: 6px;
+  animation: motion 1s linear infinite;
+}
+
+@keyframes motion {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.truckTires {
+  width: 130px;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 10px 0px 15px;
+  position: absolute;
+  bottom: 0;
+}
+.truckTires svg {
+  width: 24px;
+}
+.road {
+  width: 100%;
+  height: 1.5px;
+  background-color: #282828;
+  position: relative;
+  bottom: 0;
+  align-self: flex-end;
+  border-radius: 3px;
+}
+.road::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 100%;
+  background-color: #282828;
+  right: -50%;
+  border-radius: 3px;
+  animation: roadAnimation 1.4s linear infinite;
+  border-left: 10px solid white;
+}
+.road::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 100%;
+  background-color: #282828;
+  right: -65%;
+  border-radius: 3px;
+  animation: roadAnimation 1.4s linear infinite;
+  border-left: 4px solid white;
+}
+.lampPost {
+  position: absolute;
+  bottom: 0;
+  right: -90%;
+  height: 90px;
+  animation: roadAnimation 1.4s linear infinite;
+}
+@keyframes roadAnimation {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(-350px);
+  }
+}

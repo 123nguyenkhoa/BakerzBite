@@ -1,0 +1,165 @@
+
+.p-slider {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 70px 0;
+  position: relative;
+  width: 100%;
+}
+
+.product-slider-heading {
+  font-size: 28px;
+  font-weight: 700;
+  color: #313131;
+  text-align: center;
+  margin: 0;
+}
+
+.product-box {
+  display: flex;
+  overflow-x: hidden; 
+  width: 100%;
+  height: 320px;
+  padding: 15px;
+  margin: 50px 20px;
+  position: relative;
+  cursor: grab; 
+  scroll-behavior: smooth;
+}
+
+.product-box-item {
+  flex: 0 0 25%; 
+  margin: 0 10px;
+  background: white;
+  border: 1px solid #ddd; 
+  border-radius: 8px;
+  position: relative;
+  transition: transform 0.5s;
+}
+
+.product-box-item:hover {
+  transform: scale(1.05);
+}
+
+.p-img-container {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  overflow: hidden;
+}
+
+.p-img a,
+.p-img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.p-img a img {
+  width: 100%;
+  height: 200px;
+  object-position: center;
+  object-fit: cover;
+  animation: fade 0.6s;
+}
+
+.p-img-back {
+  display: none;
+}
+
+.p-img-container:hover .p-img-back {
+  display: block;
+}
+
+.p-img-container:hover .p-img-front {
+  display: none;
+}
+
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.p-box-text {
+  margin-top: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.product-title {
+  color: #333333;
+  font-weight: 600;
+  text-decoration: none;
+  transition: all ease 0.3s;
+}
+
+.product-title:hover {
+  color: #111111;
+  opacity: 0.7;
+  transition: all ease 0.3s;
+}
+
+.price-buy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+  gap: 10px;
+}
+
+.price-buy .p-price {
+  font-size: 1.3rem;
+  color: #333333;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.price-buy .old-price {
+  text-decoration: line-through;
+  color: red;
+  font-size: 0.8em;
+
+}
+
+.p-discount {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  width: 65px;
+  height: 24px;
+  color: #ffffff;
+  background-color: #e63b3b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  letter-spacing: 1px;
+  z-index: 1;
+  border-radius: 3px;
+}
+
+.slider-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}

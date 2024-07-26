@@ -1,0 +1,76 @@
+.item-1 {
+  flex: 1 1 1 calc(33.33% - 20px);
+  margin: 10px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+  height: 550px;
+  width: 350px;
+  position: relative; 
+}
+
+.item-1 img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  transition: 0.5s ease-in;
+  cursor: pointer;
+}
+
+.item-1:hover img {
+  transform: scale(1.1);
+}
+
+.item-info {
+  padding: 10px;
+  text-align: center;
+  width: 100%;
+  background-color: #fff;
+  font-size: 1.1em;
+}
+
+.item-info h3,
+.item-info p,
+.item-info span {
+  margin: 5px 0;
+}
+
+.item-info h3 {
+  cursor: pointer;
+}
+
+.item-info .price-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-info .old-price {
+  text-decoration: line-through;
+  color: red;
+  font-size: 0.8em;
+  margin-left: 10px;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  font-weight: bold;
+  z-index: 1; 
+  transition: opacity 0.5s ease-in-out;
+}
+
+.item-1:hover .discount-badge {
+  opacity: 0;
+}

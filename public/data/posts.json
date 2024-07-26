@@ -1,0 +1,600 @@
+[
+  {
+    "id": 1,
+    "title": "The Ultimate Chocolate Cake Recipe",
+    "date": "June 5, 2024",
+    "description": "Welcome to our baking blog! Today, we're sharing the ultimate chocolate cake recipe that's perfect for any occasion. Whether you're celebrating a birthday, an anniversary, or just indulging in a sweet treat, this rich and moist chocolate cake will surely impress.",
+    "category": "Recipe",
+    "imageClass": "post-1",
+    "audioClass": "audio-1",
+    "author": {
+      "name": "Emily Baker",
+      "profileClass": "profile-1",
+      "bio": "Emily Baker is a professional baker with over 10 years of experience. She specializes in creating delicious and innovative cake recipes."
+    },
+    "subheadings": [
+      {
+        "title": "Ingredients and Preparation",
+        "content": [
+          "This chocolate cake recipe is the ultimate treat for chocolate lovers. It is rich, moist, and perfectly balanced in sweetness. To start, you will need high-quality cocoa powder, flour, sugar, eggs, butter, and a few other basic baking ingredients.",
+          "Preheat your oven to 350°F (175°C) and grease your cake pans. In a large mixing bowl, combine the dry ingredients: flour, cocoa powder, sugar, baking powder, and a pinch of salt. In a separate bowl, whisk together the eggs, melted butter, and vanilla extract. Gradually add the wet ingredients to the dry ingredients, mixing until just combined. Pour the batter evenly into the prepared pans."
+        ]
+      },
+      {
+        "title": "Baking and Finishing Touches",
+        "content": [
+          "Bake the cakes in the preheated oven for 25-30 minutes, or until a toothpick inserted into the center comes out clean. Remove the cakes from the oven and let them cool in the pans for 10 minutes before transferring them to a wire rack to cool completely.",
+          "Once the cakes have cooled, you can start preparing the frosting. For a classic chocolate frosting, you will need butter, powdered sugar, cocoa powder, và a splash of milk. Beat the butter until creamy, then gradually add the powdered sugar and cocoa powder, alternating with milk, until the frosting is smooth and spreadable.",
+          "To assemble the cake, place one layer on a serving plate and spread a thick layer of frosting on top. Add the second layer and frost the top and sides of the cake. For an extra touch, you can garnish the cake with chocolate shavings or fresh berries. Enjoy your ultimate chocolate cake!"
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Alice",
+        "comment": "This recipe was amazing! The cake turned out so moist and flavorful.",
+        "date": "July 1, 2024"
+      },
+      {
+        "customer": "Lisa",
+        "comment": "I tried this recipe for my daughter's birthday and it was a hit!",
+        "date": "July 2, 2024"
+      },
+      {
+        "customer": "Susan",
+        "comment": "The instructions were easy to follow and the cake was delicious.",
+        "date": "July 3, 2024"
+      },
+      {
+        "customer": "Mark",
+        "comment": "Best chocolate cake recipe I've ever tried!",
+        "date": "July 4, 2024"
+      },
+      {
+        "customer": "John",
+        "comment": "The cake was perfect for our anniversary celebration.",
+        "date": "July 5, 2024"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Five Tips for Perfectly Moist Cakes Every Time",
+    "date": "June 12, 2024",
+    "description": "Baking a perfectly moist cake can sometimes feel like a challenge, but with the right techniques, you can achieve bakery-quality results at home. Here are five essential tips to ensure your cakes turn out moist and delicious every time.",
+    "category": "Tips",
+    "imageClass": "post-2",
+    "audioClass": "audio-2",
+    "author": {
+      "name": "John Pastry",
+      "profileClass": "profile-2",
+      "bio": "John Pastry is a pastry chef with a passion for perfecting baking techniques. He enjoys sharing his expertise to help others bake like pros."
+    },
+    "subheadings": [
+      {
+        "title": "Tip 1: Use the Right Ingredients",
+        "content": [
+          "Ensure you’re using the best ingredients for your cake. Fresh, high-quality ingredients like real butter, fresh eggs, and good-quality flour make a huge difference in the final product.",
+          "Measuring your ingredients correctly can make or break your cake. Use a kitchen scale for accuracy, especially with flour, as too much or too little can affect the texture of your cake."
+        ]
+      },
+      {
+        "title": "Tip 2: Don’t Overmix Your Batter",
+        "content": [
+          "Mixing your batter too much can result in a dense and tough cake. Mix just until the ingredients are combined to keep the batter light and airy.",
+          "Scrape down the sides of your mixing bowl periodically to ensure all ingredients are fully incorporated without overmixing."
+        ]
+      },
+      {
+        "title": "Tip 3: Control Your Oven Temperature",
+        "content": [
+          "A consistent and correct oven temperature is key to baking a perfect cake. Invest in an oven thermometer to ensure your oven is baking at the correct temperature.",
+          "Avoid opening the oven door frequently while baking. This can cause temperature fluctuations, which may result in an uneven bake."
+        ]
+      },
+      {
+        "title": "Tip 4: Properly Prepare Your Pans",
+        "content": [
+          "Grease and flour your cake pans to prevent sticking. This helps the cake release easily from the pan once it’s baked.",
+          "Line the bottom of your cake pans with parchment paper for an added layer of insurance to prevent sticking."
+        ]
+      },
+      {
+        "title": "Tip 5: Don’t Rush the Cooling Process",
+        "content": [
+          "Allow your cake to cool in the pan for about 10-15 minutes after baking. Then transfer it to a wire rack to cool completely.",
+          "Rushing this process can cause the cake to break apart or become dense. Patience is key to a perfect cake texture."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Emily",
+        "comment": "These tips were very helpful! My cakes are now perfectly moist.",
+        "date": "July 10, 2024"
+      },
+      {
+        "customer": "Sophia",
+        "comment": "I followed these tips and my cake turned out amazing.",
+        "date": "July 12, 2024"
+      },
+      {
+        "customer": "Mia",
+        "comment": "Great tips! They made a big difference in my baking.",
+        "date": "July 15, 2024"
+      },
+      {
+        "customer": "Daniel",
+        "comment": "These tips are spot on. My cakes are no longer dry.",
+        "date": "July 18, 2024"
+      },
+      {
+        "customer": "David",
+        "comment": "Fantastic advice. My cakes are now bakery-quality.",
+        "date": "July 20, 2024"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "A Birthday Surprise with Our Signature Cupcakes",
+    "date": "June 20, 2024",
+    "description": "At our bakery, we love hearing from our customers and how our baked goods bring joy to their special moments. Today, we’re sharing a heartwarming story from one of our loyal customers, Sarah, who used our signature cupcakes to create a memorable birthday surprise.",
+    "category": "Customer Story",
+    "imageClass": "post-3",
+    "audioClass": "audio-3",
+    "author": {
+      "name": "Sarah Sweet",
+      "profileClass": "profile-3",
+      "bio": "Sarah Sweet is a loyal customer of Bakerz Bite, known for her delightful and creative use of our signature cupcakes in special celebrations."
+    },
+    "subheadings": [
+      {
+        "title": "The Plan",
+        "content": [
+          "Sarah wanted to surprise her best friend on her birthday with something unique and special. She decided that our signature cupcakes would be the perfect treat for the celebration.",
+          "She reached out to us a week in advance to place a custom order. Sarah chose a variety of flavors and requested personalized decorations for each cupcake to make the surprise even more special."
+        ]
+      },
+      {
+        "title": "The Surprise",
+        "content": [
+          "On the day of the birthday, Sarah picked up the cupcakes from our bakery. She was thrilled with how beautiful and delicious they looked.",
+          "When she presented the cupcakes to her best friend, the reaction was priceless. The personalized touches and delicious flavors made the surprise truly unforgettable."
+        ]
+      },
+      {
+        "title": "Customer Feedback",
+        "content": [
+          "Sarah's best friend loved the cupcakes so much that she immediately asked where they were from. Sarah was happy to share her experience and recommended our bakery.",
+          "We're always delighted to hear how our baked goods play a part in our customers' special moments. Sarah's story is just one example of how we strive to make every occasion memorable with our delicious treats."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Laura",
+        "comment": "The cupcakes were amazing! My friend loved them.",
+        "date": "July 5, 2024"
+      },
+      {
+        "customer": "Kate",
+        "comment": "Such a sweet story! I'll definitely order for my next event.",
+        "date": "July 6, 2024"
+      },
+      {
+        "customer": "Emma",
+        "comment": "The personalized cupcakes were a hit! Thanks for the great service.",
+        "date": "July 7, 2024"
+      },
+      {
+        "customer": "James",
+        "comment": "I loved the cupcakes! Will order again.",
+        "date": "July 8, 2024"
+      },
+      {
+        "customer": "Michael",
+        "comment": "Fantastic cupcakes and great service.",
+        "date": "July 9, 2024"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "Classic Chocolate Chip Cookies",
+    "date": "July 5, 2024",
+    "description": "Chocolate chip cookies are a timeless treat that brings joy to any occasion. Our classic recipe combines the perfect balance of crispy edges and chewy centers, making them irresistible to cookie lovers everywhere.",
+    "category": "Recipe",
+    "imageClass": "post-4",
+    "audioClass": "audio-4",
+    "author": {
+      "name": "Emily Baker",
+      "profileClass": "profile-1",
+      "bio": "Emily Baker is a professional baker with over 10 years of experience. She specializes in creating delicious and innovative cake recipes."
+    },
+    "subheadings": [
+      {
+        "title": "Ingredients",
+        "content": [
+          "For this classic recipe, you'll need butter, sugar, brown sugar, eggs, vanilla extract, flour, baking soda, salt, and of course, chocolate chips.",
+          "Make sure to use high-quality chocolate chips for the best flavor. You can also mix in some chopped nuts for added texture if you like."
+        ]
+      },
+      {
+        "title": "Preparation",
+        "content": [
+          "Preheat your oven to 350°F (175°C) and line your baking sheets with parchment paper. In a large bowl, cream together the butter, sugar, and brown sugar until light and fluffy.",
+          "Add the eggs one at a time, beating well after each addition, then stir in the vanilla extract. In a separate bowl, whisk together the flour, baking soda, and salt. Gradually add the dry ingredients to the wet ingredients, mixing just until combined. Fold in the chocolate chips."
+        ]
+      },
+      {
+        "title": "Baking",
+        "content": [
+          "Drop rounded tablespoons of dough onto the prepared baking sheets, spacing them about 2 inches apart. Bake in the preheated oven for 10-12 minutes, or until the edges are lightly golden.",
+          "Allow the cookies to cool on the baking sheets for a few minutes before transferring them to a wire rack to cool completely. Enjoy your freshly baked classic chocolate chip cookies with a glass of milk!"
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Grace",
+        "comment": "The best chocolate chip cookies I've ever made!",
+        "date": "July 10, 2024"
+      },
+      {
+        "customer": "Megan",
+        "comment": "Easy to follow recipe and the cookies turned out perfect.",
+        "date": "July 11, 2024"
+      },
+      {
+        "customer": "Hannah",
+        "comment": "My family loved these cookies. Will make them again.",
+        "date": "July 12, 2024"
+      },
+      {
+        "customer": "Ethan",
+        "comment": "Great recipe! The cookies were delicious.",
+        "date": "July 13, 2024"
+      },
+      {
+        "customer": "Oliver",
+        "comment": "Perfect balance of crispy and chewy. Highly recommend.",
+        "date": "July 14, 2024"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "title": "Red Velvet Cupcakes with Cream Cheese Frosting",
+    "date": "July 15, 2024",
+    "description": "Red velvet cupcakes are a crowd favorite, known for their vibrant color and moist texture. Topped with a rich cream cheese frosting, these cupcakes are perfect for any celebration.",
+    "category": "Recipe",
+    "imageClass": "post-5",
+    "audioClass": "audio-5",
+    "author": {
+      "name": "John Pastry",
+      "profileClass": "profile-2",
+      "bio": "John Pastry is a pastry chef with a passion for perfecting baking techniques. He enjoys sharing his expertise to help others bake like pros."
+    },
+    "subheadings": [
+      {
+        "title": "Ingredients",
+        "content": [
+          "For the cupcakes, you'll need flour, cocoa powder, baking soda, salt, butter, sugar, eggs, buttermilk, red food coloring, vanilla extract, and vinegar.",
+          "For the cream cheese frosting, you'll need cream cheese, butter, powdered sugar, and vanilla extract. Make sure to use full-fat cream cheese for the richest flavor."
+        ]
+      },
+      {
+        "title": "Preparation",
+        "content": [
+          "Preheat your oven to 350°F (175°C) and line your cupcake pans with paper liners. In a medium bowl, whisk together the flour, cocoa powder, baking soda, and salt.",
+          "In a large bowl, beat the butter and sugar until light and fluffy. Add the eggs one at a time, beating well after each addition. Mix in the buttermilk, red food coloring, vanilla extract, and vinegar. Gradually add the dry ingredients to the wet ingredients, mixing just until combined."
+        ]
+      },
+      {
+        "title": "Baking and Frosting",
+        "content": [
+          "Divide the batter evenly among the prepared cupcake liners, filling each about two-thirds full. Bake in the preheated oven for 18-20 minutes, or until a toothpick inserted into the center comes out clean.",
+          "Allow the cupcakes to cool in the pans for a few minutes, then transfer to a wire rack to cool completely. While the cupcakes are cooling, prepare the cream cheese frosting by beating together the cream cheese, butter, powdered sugar, and vanilla extract until smooth and creamy. Frost the cooled cupcakes and enjoy!"
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Sophia",
+        "comment": "These cupcakes were a hit at my party! The frosting was perfect.",
+        "date": "July 20, 2024"
+      },
+      {
+        "customer": "Olivia",
+        "comment": "Delicious and easy to make. Loved the vibrant color.",
+        "date": "July 21, 2024"
+      },
+      {
+        "customer": "Ava",
+        "comment": "The best red velvet cupcakes I've ever made. Highly recommend!",
+        "date": "July 22, 2024"
+      },
+      {
+        "customer": "William",
+        "comment": "Great recipe! The cupcakes were moist and flavorful.",
+        "date": "July 23, 2024"
+      },
+      {
+        "customer": "James",
+        "comment": "The cream cheese frosting was amazing. Will make these again.",
+        "date": "July 24, 2024"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "5 Tips for Perfectly Fluffy Cakes",
+    "date": "July 10, 2024",
+    "description": "Everyone loves a perfectly fluffy cake. However, achieving that light and airy texture can be tricky. Here are five essential tips to ensure your cakes come out perfectly fluffy every time.",
+    "category": "Tips",
+    "imageClass": "post-6",
+    "audioClass": "audio-6",
+    "author": {
+      "name": "Sarah Whisk",
+      "profileClass": "profile-4",
+      "bio": "Sarah Whisk is a baking enthusiast who loves to experiment with different recipes to achieve the perfect texture and flavor."
+    },
+    "subheadings": [
+      {
+        "title": "Tip 1: Use Cake Flour",
+        "content": [
+          "Cake flour has a lower protein content than all-purpose flour, which helps create a softer and fluffier texture. If you don't have cake flour, you can make your own by combining all-purpose flour with cornstarch.",
+          "Sift the flour and cornstarch together to ensure they are well combined and to add extra air to the mixture, making your cake even fluffier."
+        ]
+      },
+      {
+        "title": "Tip 2: Beat the Eggs Well",
+        "content": [
+          "Beating the eggs well before adding them to the batter can help incorporate more air, resulting in a lighter and fluffier cake.",
+          "Use room temperature eggs for best results, as they incorporate more easily into the batter and help create a smoother texture."
+        ]
+      },
+      {
+        "title": "Tip 3: Don’t Overmix the Batter",
+        "content": [
+          "Mix the batter just until the ingredients are combined. Overmixing can lead to a dense and heavy cake.",
+          "Gently fold in any additional ingredients, such as chocolate chips or fruit, to avoid deflating the batter."
+        ]
+      },
+      {
+        "title": "Tip 4: Use the Right Baking Pans",
+        "content": [
+          "Choose light-colored, non-stick baking pans for even baking. Dark-colored pans can cause the edges of the cake to bake too quickly and become tough.",
+          "Line the bottoms of the pans with parchment paper to ensure easy release and to prevent the cake from sticking."
+        ]
+      },
+      {
+        "title": "Tip 5: Bake at the Right Temperature",
+        "content": [
+          "Baking at the correct temperature is crucial for a fluffy cake. Use an oven thermometer to ensure your oven is properly calibrated.",
+          "Avoid opening the oven door frequently while baking, as this can cause temperature fluctuations and affect the rise of the cake."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Isabella",
+        "comment": "These tips were very helpful! My cakes are now perfectly fluffy.",
+        "date": "July 15, 2024"
+      },
+      {
+        "customer": "Mia",
+        "comment": "Great advice! Made a big difference in my baking.",
+        "date": "July 16, 2024"
+      },
+      {
+        "customer": "Amelia",
+        "comment": "Loved these tips! My cakes turned out amazing.",
+        "date": "July 17, 2024"
+      },
+      {
+        "customer": "Mason",
+        "comment": "Fantastic tips. My cakes are now bakery-quality.",
+        "date": "July 18, 2024"
+      },
+      {
+        "customer": "Ethan",
+        "comment": "These tips really helped. My cakes are no longer dense.",
+        "date": "July 19, 2024"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "title": "How to Store Baked Goods for Maximum Freshness",
+    "date": "July 20, 2024",
+    "description": "Proper storage is key to maintaining the freshness and flavor of your baked goods. Here are some tips on how to store different types of baked goods to keep them fresh for as long as possible.",
+    "category": "Tips",
+    "imageClass": "post-7",
+    "audioClass": "audio-7",
+    "author": {
+      "name": "Michael Dough",
+      "profileClass": "profile-5",
+      "bio": "Michael Dough is a baking expert who specializes in the art of preserving baked goods to maintain their freshness and flavor."
+    },
+    "subheadings": [
+      {
+        "title": "Storing Cookies",
+        "content": [
+          "Store cookies in an airtight container at room temperature. For soft cookies, place a slice of bread in the container to help keep them moist.",
+          "To freeze cookies, arrange them in a single layer on a baking sheet and freeze until solid. Then transfer to a freezer-safe bag or container."
+        ]
+      },
+      {
+        "title": "Storing Cakes",
+        "content": [
+          "Cakes can be stored at room temperature for up to two days, covered tightly with plastic wrap. For longer storage, refrigerate or freeze the cake.",
+          "To freeze a cake, wrap it tightly in plastic wrap and then in aluminum foil. Thaw in the refrigerator overnight before serving."
+        ]
+      },
+      {
+        "title": "Storing Bread",
+        "content": [
+          "Store bread in a paper bag at room temperature to maintain its crusty texture. For softer bread, store in an airtight container.",
+          "To freeze bread, slice it first and then wrap in plastic wrap and aluminum foil. Thaw slices at room temperature or toast directly from frozen."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Charlotte",
+        "comment": "Great tips! Helped me keep my baked goods fresh for longer.",
+        "date": "July 25, 2024"
+      },
+      {
+        "customer": "Luna",
+        "comment": "Very helpful advice. Thanks for sharing!",
+        "date": "July 26, 2024"
+      },
+      {
+        "customer": "Ella",
+        "comment": "These storage tips are fantastic. My cookies stayed fresh for days.",
+        "date": "July 27, 2024"
+      },
+      {
+        "customer": "Alexander",
+        "comment": "Great article. Learned a lot about storing baked goods.",
+        "date": "July 28, 2024"
+      },
+      {
+        "customer": "Jack",
+        "comment": "Very useful tips. My bread stays fresh much longer now.",
+        "date": "July 29, 2024"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "A Wedding to Remember: Emily and Jack's Special Day",
+    "date": "July 8, 2024",
+    "description": "At Bakerz Bite, we love being part of our customers' special moments. Emily and Jack's wedding was one such occasion where our custom wedding cake made their day even more memorable. Here's their story.",
+    "category": "Customer Story",
+    "imageClass": "post-8",
+    "audioClass": "audio-8",
+    "author": {
+      "name": "Olivia Frost",
+      "profileClass": "profile-6",
+      "bio": "Olivia Frost is a talented cake designer at Bakerz Bite, specializing in creating beautiful and personalized cakes for special occasions."
+    },
+    "subheadings": [
+      {
+        "title": "The Planning",
+        "content": [
+          "Emily and Jack wanted their wedding to be perfect, and that included the cake. They visited our bakery to discuss their vision and taste samples of our cakes.",
+          "After trying a few different flavors, they chose a classic vanilla cake with raspberry filling and buttercream frosting. We worked with them to create a custom design that matched their wedding theme."
+        ]
+      },
+      {
+        "title": "The Wedding Day",
+        "content": [
+          "On the day of the wedding, we delivered the cake to the venue and set it up. The cake looked stunning and was a perfect centerpiece for the reception.",
+          "Emily and Jack were thrilled with the cake, and their guests couldn't stop raving about how delicious it was. The cake cutting was a memorable moment for everyone."
+        ]
+      },
+      {
+        "title": "Customer Feedback",
+        "content": [
+          "Emily and Jack sent us a heartfelt thank you note, expressing their gratitude for the beautiful and delicious cake. They said it was one of the highlights of their wedding.",
+          "We're honored to have been a part of their special day and look forward to creating more beautiful cakes for other couples in the future."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Harper",
+        "comment": "Such a beautiful story! The cake looks amazing.",
+        "date": "July 9, 2024"
+      },
+      {
+        "customer": "Ella",
+        "comment": "What a lovely wedding cake. Great job!",
+        "date": "July 10, 2024"
+      },
+      {
+        "customer": "Scarlett",
+        "comment": "The cake sounds delicious. Congratulations to the couple!",
+        "date": "July 11, 2024"
+      },
+      {
+        "customer": "Liam",
+        "comment": "Great story and beautiful cake. Well done!",
+        "date": "July 12, 2024"
+      },
+      {
+        "customer": "Noah",
+        "comment": "The cake looks perfect for a wedding. Great job, Bakerz Bite!",
+        "date": "July 13, 2024"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "A Sweet Surprise: Sarah's Birthday Celebration",
+    "date": "July 18, 2024",
+    "description": "There's nothing like surprising a loved one with their favorite treat on their special day. When Sarah's husband, Tom, approached us to create a unique birthday cake for her, we were excited to make it happen. Here's their story.",
+    "category": "Customer Story",
+    "imageClass": "post-9",
+    "audioClass": "audio-9",
+    "author": {
+      "name": "John Baker",
+      "profileClass": "profile-7",
+      "bio": "John Baker is a creative cake artist at Bakerz Bite, known for his unique and personalized cake designs that bring joy to special occasions."
+    },
+    "subheadings": [
+      {
+        "title": "The Surprise",
+        "content": [
+          "Tom wanted to surprise his wife, Sarah, with a unique birthday cake. He came to our bakery with a special request: a cake that reflected Sarah's love for gardening.",
+          "We worked with Tom to create a beautiful garden-themed cake, complete with edible flowers and butterflies. The cake was not only visually stunning but also delicious."
+        ]
+      },
+      {
+        "title": "The Reaction",
+        "content": [
+          "When Tom presented the cake to Sarah, she was overjoyed. She loved the thoughtful design and the delicious flavors.",
+          "The cake was a hit with everyone at the party, and Sarah couldn't stop thanking Tom for the wonderful surprise."
+        ]
+      },
+      {
+        "title": "Customer Feedback",
+        "content": [
+          "Tom sent us a thank you message, saying that the cake was perfect and that Sarah loved it. He appreciated our attention to detail and creativity.",
+          "We're always happy to help our customers celebrate their special moments with unique and delicious cakes. Sarah's birthday celebration was a sweet success."
+        ]
+      }
+    ],
+    "comments": [
+      {
+        "customer": "Ava",
+        "comment": "Such a beautiful cake! Great job, Bakerz Bite.",
+        "date": "July 19, 2024"
+      },
+      {
+        "customer": "Mia",
+        "comment": "The garden-themed cake sounds amazing. Well done!",
+        "date": "July 20, 2024"
+      },
+      {
+        "customer": "Amelia",
+        "comment": "What a sweet story. The cake looks fantastic.",
+        "date": "July 21, 2024"
+      },
+      {
+        "customer": "Ethan",
+        "comment": "Great job on the cake. It looks beautiful and delicious.",
+        "date": "July 22, 2024"
+      },
+      {
+        "customer": "Mason",
+        "comment": "The cake was perfect for the celebration. Well done!",
+        "date": "July 23, 2024"
+      }
+    ]
+  }
+]

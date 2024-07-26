@@ -1,0 +1,79 @@
+.topSelling {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.title {
+ text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.categoryButtons {
+  margin-bottom: 20px;
+}
+
+.categoryButton {
+  margin: 5px;
+  padding: 10px 20px;
+  border: 1px solid #dcdcdc;
+  border-radius: 5px;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.categoryButton.active {
+  background-color: #007bff;
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product {
+  width: calc(50% - 10px);
+  margin: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.product img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.product p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.product::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #251717;
+  position: absolute;
+  top: 0;
+  right: 100%;
+  visibility: hidden;
+}
+
+.products > .product:nth-child(2n)::before {
+  visibility: visible;
+}

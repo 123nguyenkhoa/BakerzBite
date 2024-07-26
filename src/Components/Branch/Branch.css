@@ -1,0 +1,53 @@
+.branch-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; 
+  margin-top: 100px;
+}
+
+.branch-list {
+  width: 30%;
+  padding: 20px;
+  overflow-y: auto; /* Thêm thanh cuộn nếu cần */
+}
+
+.branch-item {
+  cursor: pointer;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+
+.branch-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.branch-header:hover {
+  background-color: #f0f0f0;
+}
+
+.branch-info {
+  background-color: white;
+  border: 1px solid #ddd;
+  padding: 0; 
+  margin-top: 5px;
+  height: 0; 
+  overflow: hidden;
+  transition: height 0.5s ease-out;
+}
+
+.branch-info-show {
+  height: auto;
+  padding: 10px;
+}
+
+.arrow {
+  font-size: 18px;
+}
+
+.branch-map {
+  width: 70%;
+  height: 100%;
+}

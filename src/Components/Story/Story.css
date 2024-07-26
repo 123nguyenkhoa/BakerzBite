@@ -1,0 +1,156 @@
+ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.abouts {
+  height: 100vh;
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.main {
+  width: 1290px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main img {
+  width: 580px;
+  max-width: 50%;
+  height: auto;
+  padding: 0 10px;
+}
+
+.all-text {
+  width: 600px;
+  max-width: 50%;
+  padding: 0 10px;
+}
+
+.all-text h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.all-text h3 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+.all-text p {
+  color: #171717;
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.btn button {
+  width: 200px;
+  height: 50px;
+  border-radius: 35px;
+  background: #ff4141;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.btn button:hover {
+  background-color: #d13333;
+  color: white;
+  transition: 0.3s;
+}
+
+.circle {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo100 {
+  position: absolute;
+  bottom: 85%;
+  right: 20%;
+  width: 140px;
+  height: 140px;
+  background: url(../Assets/logo-1.jpg);
+  background-size: cover;
+  border-radius: 50%;
+  filter: brightness(1.5) contrast(1.5);
+}
+
+.text100 {
+  position: absolute;
+  right: 6px;
+  width: 180px;
+  height: 180px;
+  animation: rotateText 10s linear infinite;
+}
+
+@keyframes rotateText {
+  0% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.text100 span {
+  position: absolute;
+  left: 50%;
+  font-size: 1.2em;
+  transform-origin: 0 100px;
+}
+
+@media (max-width: 991px) {
+  .abouts {
+    width: 100%;
+    height: auto;
+    padding: 60px 0;
+  }
+
+  .main {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .all-text {
+    text-align: center;
+    margin-top: 40px;
+    max-width: 100%;
+  }
+
+  .main img {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .main img {
+    margin-bottom: 35px;
+  }
+
+  .all-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+}

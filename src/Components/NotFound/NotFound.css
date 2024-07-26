@@ -1,0 +1,54 @@
+.error1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh; 
+}
+
+.error-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+  background-color: white; 
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+.donut {
+  width: 300px;
+  margin-bottom: 20px; 
+}
+.desc {
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.paragraph {
+  font-size: 20px;
+  line-height: 1.5;
+  color: #333333;
+  margin-bottom: 20px;
+}
+
+.backto {
+  background-color: #333333;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 15px 30px;
+  font-size: 14px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.backto:hover {
+  background-color: #555;
+}

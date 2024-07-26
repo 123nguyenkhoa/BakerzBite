@@ -1,0 +1,74 @@
+.reward-manager {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  margin: 120px auto; /* Tăng khoảng cách từ trên xuống */
+}
+
+.left-side {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.right-side {
+  flex: 1;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.avatar-1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.user-info p {
+  margin: 0;
+}
+
+.tier-icon {
+  width: 20px;
+  height: 20px;
+  margin-left: 5px;
+}
+
+.use-points-btn {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  display: block;
+  width: 100%;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.use-points-btn:hover {
+  background: #0056b3;
+}
+
+.reward-history {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+.reward-history li {
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}

@@ -1,0 +1,223 @@
+.cartitems {
+  margin: 100px 150px;
+}
+.cartitems hr {
+  height: 3px;
+  background: #e2e2e2;
+  border: 0;
+}
+.cartitems-format-main {
+  display: grid;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  align-items: center;
+  gap: 50px;
+  padding: 20px 0px;
+  color: #454545;
+  font-size: 18px;
+  font-weight: 600;
+}
+.cartitems-format {
+  font-size: 16px;
+  font-weight: 500;
+}
+.cartitems-product-icon {
+  height: 62px;
+}
+.cartitems-remove-icon {
+  width: 15px;
+  margin: 0px 40px;
+  cursor: pointer;
+}
+.cartitems-quantity {
+  width: 64px;
+  height: 50px;
+}
+.cartitems-down {
+  display: flex;
+  margin: 100px 0px;
+}
+.cartitems-total {
+  display: flex;
+  flex-direction: column;
+  margin-right: 200px;
+  gap: 40px;
+}
+.cartitems-total-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px;
+}
+.cartitems-total button {
+  width: 260px;
+  height: 58px;
+  outline: none;
+  border: none;
+  background: #ff5a5a;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cartitems-promo-reward-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.cartitems-promocode {
+  font-size: 16px;
+  font-weight: 500;
+}
+.cartitems-promocode p {
+  color: #555;
+}
+.cartitems-promobox {
+  width: 500px;
+  margin-top: 10px;
+  padding-left: 20px;
+  height: 58px;
+  background: #eaeaea;
+}
+.cartitems-promobox input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 280px;
+  height: 50px;
+}
+.cartitems-promobox button {
+  width: 200px;
+  height: 58px;
+  font-size: 16px;
+  background: black;
+  color: white;
+  cursor: pointer;
+}
+.cartitems-reward-points {
+  width: 500px;
+  margin-top: 20px;
+  padding-left: 20px;
+  padding-top: 10px;
+  height: 130px;
+  background: #eaeaea;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+.cartitems-reward-points h3 {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.cartitems-reward-points p {
+  color: #555;
+}
+.cartitems-reward-points input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  width: 280px;
+  height: 30px;
+  margin: 10px 0;
+}
+
+.coupon-card {
+  background: linear-gradient(135deg, #7158fe, #9d4de6);
+  color: #fff;
+  text-align: center;
+  padding: 40px 80px;
+  border-radius: 15px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.15);
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.logos {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.coupon-card h3 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.coupon-card p {
+  font-size: 15px;
+}
+
+.coupon-row {
+  display: flex;
+  align-items: center;
+  margin: 25px auto;
+  width: fit-content;
+}
+
+#cpnCode {
+  border: 1px dashed #fff;
+  padding: 10px 20px;
+  border-right: 0;
+}
+
+#cpnBtn {
+  border: 1px solid #fff;
+  background: #fff;
+  padding: 10px 20px;
+  color: #7158fe;
+  cursor: pointer;
+}
+
+.circle1,
+.circle2 {
+  background: #f0fff3;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.circle1 {
+  left: -25px;
+}
+
+.circle2 {
+  right: -25px;
+}
+
+.frame-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.frame-content {
+  background: #fff;
+  border-radius: 15px;
+  padding: 20px;
+  position: relative;
+}
+
+.frame-close {
+  position: absolute;
+  top: 10px;
+  right: 7px;
+  cursor: pointer;
+  background: transparent;
+  border: none;
+  font-size: 20px;
+}
